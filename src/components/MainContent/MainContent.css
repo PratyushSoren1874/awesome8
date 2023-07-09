@@ -1,0 +1,327 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Noto Sans');
+
+
+.post {
+    width: 550px;
+    margin: 30px 40px 50px 40px;
+  }
+  
+  .post__header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .button {
+    display: inline-flex;
+    padding: 6px 12px;
+    align-items: center;
+    border-radius: 999px;
+    background: var(--pops, #01B99F);
+    color: white;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    cursor: pointer;
+  }
+
+  .button :hover {
+    display: inline-flex;
+    padding: 6px 12px;
+    align-items: center;
+    border-radius: 999px;
+    background: var(--pops, #006558);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .day__posted {
+    display: inline-flex;
+    color: var(--n-5, #919EB6);
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.1px;
+    margin-left: 10px;
+  }
+
+  .verify__user {
+    width: 14px;
+    height: 14px;
+    margin-left: -160px;
+    margin-right: 5px;
+  }
+
+  .verify__user_2 {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+  }
+
+
+  .height{
+    color: var(--n-5, #919EB6);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin-left: 50px;
+  }
+
+  .weight{
+    color: var(--n-5, #919EB6);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
+  .post__tags {
+    color: #5A6B87;
+    justify-content: space-between;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+  }
+
+  .container__year {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #F7F8FA);
+    cursor: pointer;
+  }
+
+  .container__year:hover {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #eeeeee);
+    cursor: pointer;
+    animation: animate .8s steps(28) 1;
+  }
+
+  .container__day {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #F7F8FA);
+    cursor: pointer;
+  }
+
+  .container__day:hover {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #eeeeee);
+    cursor: pointer;
+    animation: animate .8s steps(28) 1;
+  }
+
+  .container__sortby {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #F7F8FA);
+    cursor: pointer;
+  }
+
+  .container__sortby:hover {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #eeeeee);
+    cursor: pointer;
+    animation: animate .8s steps(28) 1;
+  }
+  
+  .container__style {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #F7F8FA);
+    cursor: pointer;
+  }
+
+  .container__style:hover {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #eeeeee);
+    cursor: pointer;
+    animation: animate .8s steps(28) 1;
+  }
+
+  .container__text {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #F7F8FA);
+    cursor: pointer;
+  }
+
+  .container__text:hover {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #eeeeee);
+    cursor: pointer;
+    animation: animate .8s steps(28) 1;
+  }
+
+  .container__trend {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #F7F8FA);
+    cursor: pointer;
+  }
+
+  .container__trend:hover {
+    padding: 5px 12px;
+    align-items: center;
+    border-radius: 999px;
+    border: 0.5px solid var(--n-3, #CED3DE);
+    background: var(--n-1, #eeeeee);
+    cursor: pointer;
+    animation: animate .8s steps(28) 1;
+  }
+  
+  
+  .post__headerAuthor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bolder;
+  }
+  
+  .post__headerAuthor > span {
+    color: grey;
+    font-size: 15px;
+  }
+  
+  .post__image > img {
+    width: 100%;
+    border-radius: 6px;
+    border: 0.6px solid rgba(128, 128, 128, 0.516);
+  }
+
+  .like {
+    color: #CED3DE;
+  }
+
+  .like:hover {
+    color: #8d8d8d;
+  }
+
+
+  .post__iconsMain {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .post__iconsMain:hover {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #eeeeee;
+    cursor: pointer;
+  }
+
+  .more__icons {
+    display: inline-flex;
+    padding: 6px 12px;
+    align-items: center;
+    margin-left: 270px;
+  }
+
+  .more__icons2 {
+    display: inline-flex;
+    padding: 6px 12px;
+    align-items: center;
+    margin-left: 320px;
+  }
+
+  .number__likes {
+    color: var(--n-5, #919EB6);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+
+  }
+
+  .post__headerAuthorb {
+    width: 33.614px;
+    height: 87.705px;
+    flex-shrink: 0;
+  }
+
+  .number__comments {
+    color: var(--n-5, #919EB6);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+  }
+  
+  .post__footer {
+  }
+  
+  .post__footerIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .postIcon {
+    padding: 7px;
+    font-size: 30px;
+  }
+  
+  .postIcon :hover {
+    cursor: pointer;
+  }
+
+  .text-box {
+    display: flex;
+    width: 500px;
+    padding: 8px 16px 10px 16px;
+    align-items: center;
+    gap: 16px;
+    border: 0.5px solid var(--n-3, #ffffff);
+    cursor: pointer;
+  }
+
+  .register {
+color: var(--n-5, #919EB6);
+font-family: Noto Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: -0.12px;
+width: 30px;
+  }
+  

@@ -1,0 +1,13 @@
+.navbar_barContent {
+    height: 54px;
+    background-color: white;
+    border-bottom: 1px solid #fbfbfb;
+    margin-top: 10px;
+    margin-left: 20px;
+    align-content: center;
+    position: inherit;
+}
+
+.navbar_img {
+    margin: 15px 10px;
+}
